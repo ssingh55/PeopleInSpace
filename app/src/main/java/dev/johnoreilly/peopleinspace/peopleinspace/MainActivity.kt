@@ -10,6 +10,11 @@ import dev.johnoreilly.peopleinspace.ui.PeopleInSpaceApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        if (!isTaskRoot) {
+            finish()
+            return
+        }
+
         installSplashScreen()
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
