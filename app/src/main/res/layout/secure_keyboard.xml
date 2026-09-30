@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E0E0E0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secure Keyboard"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#CCCCCC"/>
+
+    <!-- Add your keyboard buttons here -->
+    <!-- Example: <Button android:id="@+id/key_1" android:text="1"... /> -->
+
+</LinearLayout>
